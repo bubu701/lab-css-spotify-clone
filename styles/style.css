@@ -6,3 +6,145 @@ Green: #00B172
 White: #FFF
 
 */
+
+body{
+ margin:0px
+}
+
+img{
+ max-width: 100%;
+}
+
+a{
+text-decoration: none; 
+ color: black;
+}
+nav{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ margin-left:30px;
+ margin-right: 30px;
+ margin-bottom: 0px;
+}
+
+nav>img{
+ height: 70px;
+}
+
+nav > ul{
+ list-style: none;
+ display: flex;
+}
+
+nav li{
+ padding: 20px;
+ font-size: 30px;
+}
+
+
+.backimage{
+ background-image: url("../images/landing.jpg");
+ background-size: cover;
+ height: 800px;
+ margin: 0px;
+ padding: 0px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+h1,
+.backimage > p{
+ color: white;
+}
+
+h1{
+ font-size: 100px;
+}
+
+.backimage > p{
+ font-size: 40px;
+ width: 55%;
+ text-align: center;
+}
+
+.mae-das-tres{
+ display: flex;
+ align-content: center;
+ justify-content: space-around;
+}
+
+.mae-das-tres div{
+  flex: 0 1 300px;
+  text-align: center;
+}
+
+.mae-das-tres img{
+ height: 100px;
+ justify-items: space-around;
+}
+
+.mae-das-tres h3{
+ color: #00B172;
+ font-size: 30px;
+ font-weight: 800;
+}
+
+.mae-das-tres p{
+ font-size: 28px;
+ font-weight:lighter;
+}
+
+.o-que-ha{
+ font-size: 40px;
+ text-align: center;
+ border-bottom: 4px solid #00B172;
+ margin-bottom: 130px;
+}
+
+#esta{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.kanye{
+ background-color: #00B172;
+ color: white;
+ margin: 40px;
+ padding: 60px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.titulo{
+ text-align: left;
+ display: inline-block;
+ 
+}
+
+.titulo h2{
+ margin: 0px;
+ border-bottom: 3px solid white;
+  padding: 10px 0px;
+  max-width: 400px;
+  display: inline-block;
+}
+
+.block-text{
+ max-width: 300px;
+}
+
+.mid-logo{
+max-width: 100px;
+align-self: center;
+}
+
+.app{
+max-width: 250px;
+}
+
+

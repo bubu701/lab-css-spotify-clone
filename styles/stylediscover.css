@@ -1,0 +1,11 @@
+body{
+ display: flex;
+}
+
+a{
+ text-decoration: none;
+}
+
+button{
+ align-self: flex-end;
+}
